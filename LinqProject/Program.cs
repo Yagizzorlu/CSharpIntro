@@ -29,7 +29,7 @@
 
             Console.WriteLine("Linq -------------------------------");
 
-            var result = products.Where(p => p.UnitPrice > 5000 && p.UnitPrice > 3);       //Bu p aynı foreach de product yazdığımız gibi verdiğimiz bir isim.
+            var result = products.Where(p => p.UnitPrice > 5000 && p.UnitsInStock > 3);       //Bu p aynı foreach de product yazdığımız gibi verdiğimiz bir isim.
 
             foreach (var product in result)
             {
